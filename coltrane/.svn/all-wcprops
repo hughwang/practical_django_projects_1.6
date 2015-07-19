@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 31
+/svn/plib/!svn/ver/180/coltrane
+END
+admin.py
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/plib/!svn/ver/187/coltrane/admin.py
+END
+views.py
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/plib/!svn/ver/191/coltrane/views.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/plib/!svn/ver/180/coltrane/__init__.py
+END
+models.py
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/plib/!svn/ver/200/coltrane/models.py
+END
+feeds.py
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/plib/!svn/ver/200/coltrane/feeds.py
+END

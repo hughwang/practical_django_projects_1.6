@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Categories index</title>        
+</head>
+<body>
+	<h1>Categories</h1>
+
+<ul>
+    {% for obj in object_list %}
+       <li><a href="{{ obj.get_absolute_url }}"><strong>{{ obj.title }}</strong></a> hello: {{ obj.description }}</li>
+       {% empty %} 
+       <li>No articles yet.</li>
+    {% endfor %}
+</ul>
+</body>
+</html>

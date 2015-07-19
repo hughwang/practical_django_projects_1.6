@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 30
+/svn/plib/!svn/ver/178/cms/cms
+END
+renderers.py
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/plib/!svn/ver/178/cms/cms/renderers.py
+END
+wsgi.py
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/plib/!svn/ver/178/cms/cms/wsgi.py
+END
+local_settings.py
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/plib/!svn/ver/209/cms/cms/local_settings.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/plib/!svn/ver/178/cms/cms/__init__.py
+END
+settings.py
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/plib/!svn/ver/208/cms/cms/settings.py
+END
+urls.py
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/plib/!svn/ver/207/cms/cms/urls.py
+END

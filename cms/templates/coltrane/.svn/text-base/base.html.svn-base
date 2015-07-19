@@ -1,0 +1,100 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+   "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Weblog {% block title %}{% endblock %}</title>
+ <link rel="stylesheet" type="text/css" href="{{ MEDIA_URL }}css/coltrane.css" />
+<!-- BEGIN JavaScript -->
+<script type="text/javascript" src="{{ MEDIA_URL }}js/jquery.js"></script>
+</head>
+<body class="{% block bodyclass %}{% endblock %}">
+    <div class="wrapper">
+    	
+      <div id="header">
+        <h1 id="branding">Weblog</h1>
+      </div>
+	
+		<!-- BEGIN Dark navigation bar -->
+		<nav class="blue">
+			<ul class="clear">
+				<li><a href="/weblog/">Home</a></li>
+				<li><a href="{% url "coltrane_entry_archive_index" %}">Entries</a></li>
+				<li><a href="{% url "coltrane_link_archive_index" %}">Links</a>
+					
+				</li>
+				<li><a href="{% url "coltrane_category_list" %}">Categories</a>
+					<ul>
+							<li>Testing</li>
+							<!--
+{% if object.categories.count %}
+	 {% for category in object.categories.all %}
+		<li> <a href="{{ category.get_absolute_url }}">{{ category.title }}</a></li>
+	{% endfor %}
+{% endif %}-->
+					</ul>
+				</li>
+				<li><a href="{% url "coltrane_tag_list" %}">Tags</a></li>
+				<li><a href="#">Contact us</a></li>
+				<li><a href="#">About us</a></li>
+				<li><a href="#">Admin Area&nbsp;</a></li>
+			</ul>
+		</nav>
+		<!-- END Dark navigation bar -->
+		
+
+    <div class="left">
+        {% block content %}
+        {% endblock %}
+    </div>
+    
+    <div class="right">
+    	
+
+        <h2>What is this?</h2>
+        {% block whatis %}
+        {% endblock %}
+        
+        {% load coltrane_tags %}
+        <h2>Latest entries in the weblog</h2>
+        <ul>
+            {% get_latest_content coltrane.entry 5 as latest_entries %}
+            {% for entry in latest_entries %}
+            <li>
+                <a href="{{ entry.get_absolute_url }}">{{ entry.title }}</a>, posted {{ entry.pub_date|timesince }} ago.
+            </li>
+            {% endfor %}
+        </ul>
+        <h2>Latest links in the weblog</h2>
+        <ul>
+            {% get_latest_content coltrane.link 5 as latest_links %}
+            {% for link in latest_links %}
+            <li>
+                <a href="{{ link.get_absolute_url }}">{{ link.title }}</a>, posted {{ link.pub_date|timesince }} ago.
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>
+</body>
+</html>
+<script type="text/javascript"> 
+$(document).ready(function(){
+
+	// Requried: Navigation bar drop-down
+	$("nav ul li").hover(function() {
+		$(this).addClass("active");
+		$(this).find("ul").show().animate({opacity: 1}, 400);
+		},function() {
+		$(this).find("ul").hide().animate({opacity: 0}, 200);
+		$(this).removeClass("active");
+	});
+	
+	// Requried: Addtional styling elements
+	$('nav ul li ul li:first-child').prepend('<li class="arrow"></li>');
+	$('nav ul li:first-child').addClass('first');
+	$('nav ul li:last-child').addClass('last');
+	$('nav ul li ul').parent().append('<span class="dropdown"></span>').addClass('drop');
+
+});
+</script>

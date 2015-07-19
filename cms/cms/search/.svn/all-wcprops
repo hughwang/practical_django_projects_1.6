@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/plib/!svn/ver/178/cms/cms/search
+END
+admin.py
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/plib/!svn/ver/178/cms/cms/search/admin.py
+END
+views.py
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/plib/!svn/ver/178/cms/cms/search/views.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/plib/!svn/ver/178/cms/cms/search/__init__.py
+END
+tests.py
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/plib/!svn/ver/178/cms/cms/search/tests.py
+END
+models.py
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/plib/!svn/ver/178/cms/cms/search/models.py
+END

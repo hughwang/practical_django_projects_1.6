@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/plib/!svn/ver/209/cms/templates/cab
+END
+snippet_list.html
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/plib/!svn/ver/209/cms/templates/cab/snippet_list.html
+END
+language_list.html
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/plib/!svn/ver/209/cms/templates/cab/language_list.html
+END
+most_bookmarked.html
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/plib/!svn/ver/209/cms/templates/cab/most_bookmarked.html
+END
+top_rated.html
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/plib/!svn/ver/209/cms/templates/cab/top_rated.html
+END
+confirm_bookmark_delete.html
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/plib/!svn/ver/209/cms/templates/cab/confirm_bookmark_delete.html
+END
+snippet_detail.html
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/plib/!svn/ver/209/cms/templates/cab/snippet_detail.html
+END
+language_detail.html
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/plib/!svn/ver/209/cms/templates/cab/language_detail.html
+END
+snippet_form.html
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/plib/!svn/ver/209/cms/templates/cab/snippet_form.html
+END
+user_bookmarks.html
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/plib/!svn/ver/209/cms/templates/cab/user_bookmarks.html
+END
+top_authors.html
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/plib/!svn/ver/209/cms/templates/cab/top_authors.html
+END
+home.html
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/plib/!svn/ver/209/cms/templates/cab/home.html
+END
+top_languages.html
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/plib/!svn/ver/209/cms/templates/cab/top_languages.html
+END
+base.html
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/plib/!svn/ver/209/cms/templates/cab/base.html
+END
+snippets_by_tag.html
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/plib/!svn/ver/209/cms/templates/cab/snippets_by_tag.html
+END

@@ -1,0 +1,18 @@
+<html>
+<head>
+<title>Links index</title>
+</head>
+<body>
+<h1>Links index</h1>
+{% for link in link_list %}
+<h2>{{ link.title }}</h2>
+<p>Published on {{ link.pub_date|date:"F j, Y" }}</p>
+{% if link.description_html %}
+{{ link.description_html|safe }}
+{% endif %}
+<p><a href="{{ link.get_absolute_url }}">Read full link</a></p>
+{% endfor %}
+</body>
+</html>
+
+

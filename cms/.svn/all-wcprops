@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 26
+/svn/plib/!svn/ver/178/cms
+END
+manage.py
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/plib/!svn/ver/178/cms/manage.py
+END
+cms.pyproj
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/plib/!svn/ver/178/cms/cms.pyproj
+END
+cms.db
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/plib/!svn/ver/209/cms/cms.db
+END
+cms.suo
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/plib/!svn/ver/178/cms/cms.suo
+END
+Readme.txt
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/plib/!svn/ver/209/cms/Readme.txt
+END
+cleancache.py
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/plib/!svn/ver/178/cms/cleancache.py
+END
+cms.sln
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/plib/!svn/ver/178/cms/cms.sln
+END
